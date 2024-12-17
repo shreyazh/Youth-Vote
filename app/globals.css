@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-peach: #FFDAB9;
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+}
+
+body {
+  color: var(--color-black);
+  background: var(--color-white);
+}
+
+.bg-peach {
+  background-color: var(--color-peach);
+}
+
+.text-peach {
+  color: var(--color-peach);
+}
+
+.border-peach {
+  border-color: var(--color-peach);
+}
+
